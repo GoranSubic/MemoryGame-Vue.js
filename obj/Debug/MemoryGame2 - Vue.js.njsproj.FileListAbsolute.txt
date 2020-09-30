@@ -1,0 +1,3 @@
+C:\Users\gsubi\workspaces\source\repos\JavaScript\JavaScript Examples\MemoryGame2 - Vue.js\obj\Debug\MemoryGame2 - Vue.js.njsprojAssemblyReference.cache
+C:\Users\gsubi\workspaces\source\repos\JavaScript\JavaScript Examples\MemoryGame2 - Vue.js\obj\Debug\MemoryGame2 - Vue.js.njsproj.CoreCompileInputs.cache
+C:\Users\gsubi\workspaces\source\repos\JavaScript\JavaScript Examples\MemoryGame2 - Vue.js\bin\Microsoft.NodejsTools.WebRole.dll

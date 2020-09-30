@@ -1,0 +1,9 @@
+C:\Users\gsubi\workspaces\source\repos\JavaScript\JavaScript Examples\MemoryGame - Vue.js\obj\Debug\MemoryGame - Vue.js.njsprojAssemblyReference.cache
+C:\Users\gsubi\workspaces\source\repos\JavaScript\JavaScript Examples\MemoryGame - Vue.js\obj\Debug\MemoryGame - Vue.js.njsproj.CoreCompileInputs.cache
+C:\Users\gsubi\workspaces\source\repos\JavaScript\JavaScript Examples\MemoryGame - Vue.js\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\gsubi\workspaces\source\repos\JavaScriptExamples-git\MemoryGame - Vue.js\obj\Debug\MemoryGame - Vue.js.njsprojAssemblyReference.cache
+C:\Users\gsubi\workspaces\source\repos\JavaScriptExamples-git\MemoryGame - Vue.js\obj\Debug\MemoryGame - Vue.js.njsproj.CoreCompileInputs.cache
+C:\Users\gsubi\workspaces\source\repos\JavaScriptExamples-git\MemoryGame - Vue.js\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\gsubi\workspaces\source\repos\JavaScript\MemoryGame - Vue.js\obj\Debug\MemoryGame - Vue.js.njsprojAssemblyReference.cache
+C:\Users\gsubi\workspaces\source\repos\JavaScript\MemoryGame - Vue.js\obj\Debug\MemoryGame - Vue.js.njsproj.CoreCompileInputs.cache
+C:\Users\gsubi\workspaces\source\repos\JavaScript\MemoryGame - Vue.js\bin\Microsoft.NodejsTools.WebRole.dll

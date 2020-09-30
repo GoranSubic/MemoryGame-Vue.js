@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div#app {
+            background: #CCC;
+            border: #999 1px solid;
+            width: 540px;
+            height: 540px;
+            padding: 24px;
+            margin: 0px auto;
+        }
+
+        div#app > div {
+            background: url(tile_bg.jpg) no-repeat;
+            border: #000 1px solid;
+            width: 71px;
+            height: 71px;
+            float: left;
+            margin: 10px;
+            padding: 20px;
+            font-size: 64px;
+            cursor: pointer;
+            text-align: center;
+        }
+        div.timer {
+            text-align: center;
+        }
+
+        span.timer {
+            display: inline-block;
+            width: 100px;
+            padding: 5px;
+            margin: 5px;
+            border: 1px solid blue;
+            background-color: lightblue;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="assets/timer.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="dist/js/countUp.js"></script>
+    <title>MemoryGame2 - Vue.js</title>
+</head>
+<body>
+    <noscript>
+        <strong>We're sorry but MemoryGame2 - Vue.js doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app1" v-cloak>
+        <div class="timer" onclick="reset()">
+            <span class="timer">Timer</span>
+            <span class="timer">
+                <timer :time="prettyTime"></timer>
+            </span>
+        </div>
+    </div>
+
+    <div id="app" onclick="start()">
+        <letters-array
+            v-for="item in memory_array"
+            v-bind:letters="item"
+            v-bind:key="item.letter">
+        </letters-array>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

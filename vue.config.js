@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/MemoryGame/'
+    publicPath: '/MemoryGame-Vue.js/'
 }

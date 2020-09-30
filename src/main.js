@@ -18,18 +18,18 @@ var app = new Vue({
             { id: 1, letter: "'A'" },
             { id: 2, letter: "'B'" },
             { id: 3, letter: "'B'" },
-            { id: 4, letter: "'C'" },
-            { id: 5, letter: "'C'" },
-            { id: 6, letter: "'D'" },
-            { id: 7, letter: "'D'" },
-            { id: 8, letter: "'E'" },
-            { id: 9, letter: "'E'" },
-            { id: 10, letter: "'F'" },
-            { id: 11, letter: "'F'" },
-            { id: 12, letter: "'G'" },
-            { id: 13, letter: "'G'" },
-            { id: 14, letter: "'H'" },
-            { id: 15, letter: "'H'" },
+            //{ id: 4, letter: "'C'" },
+            //{ id: 5, letter: "'C'" },
+            //{ id: 6, letter: "'D'" },
+            //{ id: 7, letter: "'D'" },
+            //{ id: 8, letter: "'E'" },
+            //{ id: 9, letter: "'E'" },
+            //{ id: 10, letter: "'F'" },
+            //{ id: 11, letter: "'F'" },
+            //{ id: 12, letter: "'G'" },
+            //{ id: 13, letter: "'G'" },
+            //{ id: 14, letter: "'H'" },
+            //{ id: 15, letter: "'H'" },
             //{ id: 16, letter: "'I'" },
             //{ id: 17, letter: "'I'" },
             //{ id: 18, letter: "'J'" },
@@ -66,9 +66,13 @@ var app = new Vue({
                         this.memory_values = [];
                         this.memory_tile_ids = [];// Check to see if the whole board is cleared
                         if (this.tiles_flipped == this.memory_array.length) {
-                            //alert("Board cleared... generating new board");
-                            document.getElementById('app').innerHTML = "";
-                            this.newBoard();
+                            var r = confirm("Your time is: " + app1.prettyTime + "\n Start new Memory Game?");
+                            if (r == true) {
+                                document.getElementById('app').innerHTML = "";
+                                this.newBoard();
+                            } else {
+                                window.location.href = "http://GoranSubic.github.io";
+                            }
                         }
                     } else {
                         this.flip2Back();

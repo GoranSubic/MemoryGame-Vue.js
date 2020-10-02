@@ -18,10 +18,10 @@ var app = new Vue({
             { id: 1, letter: "'A'" },
             { id: 2, letter: "'B'" },
             { id: 3, letter: "'B'" },
-            //{ id: 4, letter: "'C'" },
-            //{ id: 5, letter: "'C'" },
-            //{ id: 6, letter: "'D'" },
-            //{ id: 7, letter: "'D'" },
+            { id: 4, letter: "'C'" },
+            { id: 5, letter: "'C'" },
+            { id: 6, letter: "'D'" },
+            { id: 7, letter: "'D'" },
             //{ id: 8, letter: "'E'" },
             //{ id: 9, letter: "'E'" },
             //{ id: 10, letter: "'F'" },
@@ -173,4 +173,8 @@ let app1 = new Vue({
         window.start = this.start;
         window.reset = this.reset;
     }
+})
+
+var appMenu = new Vue({
+    el: "#appMenu"
 })
